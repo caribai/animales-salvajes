@@ -24,7 +24,7 @@ document.getElementById('btnRegistrar').addEventListener('click', async () => {
     const animal_data = await data(animal)
     const comentarios = document.getElementById("comentarios").value;
     const edad = document.getElementById("edad").value;
-    const sonido = `/assets/sounds/${animal_data.sonido}`
+    const sonido = `assets/sounds/${animal_data.sonido}`
     const img = animal_data.imagen
     //Validacion de campos 
     if (animal && edad && comentarios) {
