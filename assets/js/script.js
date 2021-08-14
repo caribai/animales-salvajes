@@ -1,6 +1,6 @@
-$( document ).ready(function() {
-//Se dividie el código en módulos y se importa
 import { Animal, Leon, Lobo, Oso, Serpiente, Aguila } from "./clases.js"; // Dividir el código en módulos 
+//Se dividie el código en módulos y se importa
+$( document ).ready(function() {
 
 //Funcion que extraje los datos de un animal
 const data = async(animal) => {
