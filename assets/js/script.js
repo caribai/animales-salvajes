@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 //Se dividie el código en módulos y se importa
 import { Animal, Leon, Lobo, Oso, Serpiente, Aguila } from "./clases.js"; // Dividir el código en módulos 
 
@@ -93,5 +94,4 @@ const cards = () => {
     
     })
 }
- 
-    
+}) 
